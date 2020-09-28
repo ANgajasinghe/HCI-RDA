@@ -53,8 +53,6 @@
 
 <body>
 
-    @include('pages.header')
-
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
 
@@ -285,12 +283,79 @@
 
     </main>
 
-    @include('pages.footer')
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
 
-    <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
-    <div id="preloader"></div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-links" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <h4>Contact Details</h4>
+                        <ul>
+                            <li><strong>Address :</strong>“Co-op Insurance House”</li>
+                            <li>74/5, Grandpass Road,</li>
+                            <li>Colombo 14.</li>
+                            <li><strong>Phone :</strong>+(94) 112 557 300 – 8</li>
+                            <li>+(94) 112 556 567 – 70</li>
+                            <li><strong>Fax :</strong>+(94) 112 556 760</li>
+                            <li>+(94) 112 557 309</li>
+                        </ul>
+                    </div>
 
-    @include('pages.head')
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-links" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <h4>Contact Us</h4>
+                        <div class="" data-aos="fade-right" data-aos-delay="100">
+                            <form method="post" action="">
+                                <ul>
+                                    <li><input type="text" class="form-control" id="exampleInputName"
+                                            placeholder="Your Name"></li>
+                                    <li><input type="email" class="form-control" id="exampleInputEmail1"
+                                            placeholder="Your Email"></li>
+                                    <li><input type="text" class="form-control" id="exampleInputRate"
+                                            placeholder="Your Phone Number"></li>
+                                    <li><textarea class="form-control" name="message" rows="3" data-rule="required"
+                                            placeholder="Please write something for us"></textarea></li>
+                                    <div class="text-center"><button type="submit" class="btn-read-more">Send
+                                            Message</button></div>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 footer-links" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <div class="quick-links">
+                                <li><i class="bx bx-chevron-right"></i> <a href="/news">Youtube</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="/gallery">Fb</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="/csr">Insta</a></li>
+                            </div>
+                        </ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+            <div class="copyright col-xl-12">
+                <p class="copy_right text-center">
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved |<br><i class="fa fa-cogs" aria-hidden="true"> Developed by <strong>
+                            200 OK Team</strong></i>
+                </p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
 </body>
 
 </html>
