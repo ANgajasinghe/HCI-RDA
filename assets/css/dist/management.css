@@ -142,3 +142,11 @@
   .section-title p {
     margin-bottom: 0;
   }
+
+  .team ul {
+    list-style: none;
+  }
+
+  .team li {
+    padding-bottom: 10px;
+  }
