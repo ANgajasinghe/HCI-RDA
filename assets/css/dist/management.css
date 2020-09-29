@@ -4,9 +4,9 @@
 .team .member {
     position: relative;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
-    background: #fff;
+    background: rgb(255, 253, 250);
     transition: 0.5s;
 }
 
@@ -32,8 +32,8 @@
 .team .member:hover {
     transform: translateY(-10px);
     border-radius: 30px;
-    box-shadow: 5px 10px #cccccc;
-    background: #e7e7e7;
+    box-shadow: 5px 10px #fff5e1;
+    background: #fffcf6;
 }
 
 .team .member .member-info {
