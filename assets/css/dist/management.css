@@ -150,3 +150,27 @@
   .team li {
     padding-bottom: 10px;
   }
+
+  .navbar {
+    border-top: 3px solid #d69213;
+    border-bottom: 3px solid #d69213;
+    border-left: 3px solid #d69213;
+    border-right: 3px solid #d69213;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ff9100;
+  }
+  
+  .navbar a {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ff9100;
+  }
+  
+  .navbar a:hover {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+  }

@@ -1,4 +1,4 @@
-
+"use strict";
 
 gsap.to("h2.title", {
   duration: 1,
