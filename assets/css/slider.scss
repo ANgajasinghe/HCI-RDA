@@ -1,194 +1,225 @@
-body
-{
-    margin: 0;
+// body
+// {
+//     margin: 0;
+// }
+
+// .header, .footer
+// {
+//     background: #444; 
+//     margin: 0px; 
+//     color: rgb(255, 255, 255); 
+//     font-family: Raleway; 
+//     text-align: center; 
+//     padding: 80px;
+// }
+
+// .header h1
+// {
+//     margin: 0px; 
+//     padding: 0px;
+// }
+
+// .header span, .footer span
+// {
+//     color: #AAA;
+// }
+
+// .ESlider
+// {
+//     margin: 0 auto !important;
+//     box-shadow: none !important;
+//     width: 100% !important;
+// }
+
+// /* 
+//     Name: ESlider v1.0
+//     Author: Evyatar Daud
+// */
+
+// .ESlider
+// {
+//     width: 800px;
+//     max-width: 100%;
+//     margin: 10px auto;
+//     background: transparent;
+//     box-shadow: 0px 0px 5px 1px #AAA;
+//     overflow: hidden;
+//     position: relative;
+//     transition: 0.2s all;
+// }
+
+// .ESlider .ESlider-slide
+// {
+//     position: absolute;
+//     left: 0;
+//     transform: scale(1.1);
+//     top: 0;
+//     width: 100%;
+//     height: auto;
+//     display: inline-block;
+//     opacity: 0;
+//     transition: 0.5s all;
+// }
+
+// .ESlider .ESlider-active-slide
+// {
+//     opacity: 1;
+//     left: 0;
+//     transform: scale(1);
+// }
+
+// .ESlider .ESlider-bulks-container 
+// {
+//     position: absolute;
+//     bottom: -30px;
+//     opacity: 0;
+//     transition: 0.3s all ease-out;
+//     width: 100%;
+//     text-align: center;
+// }
+
+// .ESlider:hover .ESlider-bulks-container
+// {
+//     opacity: 1;
+//     bottom: 10px;
+// }
+
+// .ESlider .ESlider-bulk 
+// {
+//     display: inline-block;
+//     height: 10px;
+//     width: 10px;
+//     background: transparent;
+//     border: 1px solid #FFF;
+//     box-shadow: 0px 0px 1px 1px #777, 0px 0px 1px 1px #777 inset;
+//     position: relative;
+//     margin: 5px;
+//     border-radius: 50%;
+//     cursor: pointer;
+//     transition: 0.5s all ease-out;
+// }
+
+// .ESlider .ESlider-bulk:hover, .ESlider .ESlider-active-bulk
+// {
+//     background: #FFF !important;
+//     box-shadow: 0px 0px 1px 1px #777 !important;
+// }
+
+// .ESlider .ESlider-bulk .ESlider-thumbnail
+// {
+//     visibility: hidden;
+//     opacity: 0;
+//     position: absolute;
+//     transform: translateX(-50%);
+//     left: 50%;
+//     bottom: 100%;
+//     height: 50px;
+//     border: 2px solid #FFF;
+//     box-shadow: 0px 0px 2px 1px #777;
+//     transition: 0.3s all;
+// }
+
+// .ESlider .ESlider-bulk:after
+// {
+//     content: '';
+//     display: block;
+//     position: absolute;
+//     visibility: hidden;
+//     opacity: 0;
+//     bottom: 100%;
+//     height: 0;
+//     width: 0;
+//     border: 5px solid transparent;
+//     border-top-color: #FFF;
+//     margin-bottom: -10px;
+//     transition: 0.3s all;
+// }
+
+// .ESlider .ESlider-bulk:hover .ESlider-thumbnail, .ESlider .ESlider-bulk:hover:after
+// {
+//     visibility: visible;
+//     opacity: 1;
+//     margin-bottom: 10px;
+// }
+
+// .ESlider .ESlider-bulk:hover:after
+// {
+//     margin-bottom: 0;
+// }
+
+// .ESlider .ESlider-previous, .ESlider .ESlider-next
+// {
+//     position: absolute;
+//     top: 0;
+//     height: 100%;
+//     width: 10%;
+//     background: rgba(0,0,0,0.1);
+//     transition: 0.3s all;
+// }
+
+// .ESlider .ESlider-previous:before, .ESlider .ESlider-previous:after, .ESlider .ESlider-next:before, .ESlider .ESlider-next:after
+// {
+//     content: '';
+//     display: block;
+//     position: absolute;
+//     height: 20px;
+//     width: 2px;
+//     background: #FFF;
+//     top: 50%;
+//     margin-top: -10px;
+// }
+
+// .ESlider .ESlider-previous:before { transform: rotate(45deg) translateY(-50%); }
+// .ESlider .ESlider-previous:after { transform: rotate(-45deg) translateY(50%); }
+
+// .ESlider .ESlider-next:before { transform: rotate(-45deg) translateY(-50%); }
+// .ESlider .ESlider-next:after { transform: rotate(45deg) translateY(50%); }
+
+// .ESlider .ESlider-previous:before, .ESlider .ESlider-previous:after
+// {
+//     left: 50%;
+//     margin-left: -10px;
+// }
+
+// .ESlider .ESlider-next:before, .ESlider .ESlider-next:after
+// {
+//     right: 50%;
+//     margin-right: -10px;
+// }
+
+// .ESlider .ESlider-previous:hover, .ESlider .ESlider-next:hover { background: rgba(0,0,0,0.3); }
+// .ESlider .ESlider-previous { left: -10%; }
+// .ESlider .ESlider-next { right: -10%; }
+// .ESlider:hover .ESlider-previous { left: 0; }
+// .ESlider:hover .ESlider-next { right: 0; }
+
+
+.item.active img {
+    transition: transform 5000ms linear 0s;
+    transform: scale(1.05, 1.05);
 }
-
-.header, .footer
-{
-    background: #444; 
-    margin: 0px; 
-    color: rgb(255, 255, 255); 
-    font-family: Raleway; 
-    text-align: center; 
-    padding: 80px;
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+  .carousel-fade .carousel-inner > .item{
+    transition: opacity 2s ease;
+  }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
 }
-
-.header h1
-{
-    margin: 0px; 
-    padding: 0px;
-}
-
-.header span, .footer span
-{
-    color: #AAA;
-}
-
-.ESlider
-{
-    margin: 0 auto !important;
-    box-shadow: none !important;
-    width: 100% !important;
-}
-
-/* 
-    Name: ESlider v1.0
-    Author: Evyatar Daud
-*/
-
-.ESlider
-{
-    width: 800px;
-    max-width: 100%;
-    margin: 10px auto;
-    background: transparent;
-    box-shadow: 0px 0px 5px 1px #AAA;
-    overflow: hidden;
-    position: relative;
-    transition: 0.2s all;
-}
-
-.ESlider .ESlider-slide
-{
-    position: absolute;
-    left: 0;
-    transform: scale(1.1);
-    top: 0;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-    opacity: 0;
-    transition: 0.5s all;
-}
-
-.ESlider .ESlider-active-slide
-{
-    opacity: 1;
-    left: 0;
-    transform: scale(1);
-}
-
-.ESlider .ESlider-bulks-container 
-{
-    position: absolute;
-    bottom: -30px;
-    opacity: 0;
-    transition: 0.3s all ease-out;
-    width: 100%;
-    text-align: center;
-}
-
-.ESlider:hover .ESlider-bulks-container
-{
-    opacity: 1;
-    bottom: 10px;
-}
-
-.ESlider .ESlider-bulk 
-{
-    display: inline-block;
-    height: 10px;
-    width: 10px;
-    background: transparent;
-    border: 1px solid #FFF;
-    box-shadow: 0px 0px 1px 1px #777, 0px 0px 1px 1px #777 inset;
-    position: relative;
-    margin: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.5s all ease-out;
-}
-
-.ESlider .ESlider-bulk:hover, .ESlider .ESlider-active-bulk
-{
-    background: #FFF !important;
-    box-shadow: 0px 0px 1px 1px #777 !important;
-}
-
-.ESlider .ESlider-bulk .ESlider-thumbnail
-{
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    transform: translateX(-50%);
-    left: 50%;
-    bottom: 100%;
-    height: 50px;
-    border: 2px solid #FFF;
-    box-shadow: 0px 0px 2px 1px #777;
-    transition: 0.3s all;
-}
-
-.ESlider .ESlider-bulk:after
-{
-    content: '';
-    display: block;
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
-    bottom: 100%;
-    height: 0;
-    width: 0;
-    border: 5px solid transparent;
-    border-top-color: #FFF;
-    margin-bottom: -10px;
-    transition: 0.3s all;
-}
-
-.ESlider .ESlider-bulk:hover .ESlider-thumbnail, .ESlider .ESlider-bulk:hover:after
-{
-    visibility: visible;
-    opacity: 1;
-    margin-bottom: 10px;
-}
-
-.ESlider .ESlider-bulk:hover:after
-{
-    margin-bottom: 0;
-}
-
-.ESlider .ESlider-previous, .ESlider .ESlider-next
-{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 10%;
-    background: rgba(0,0,0,0.1);
-    transition: 0.3s all;
-}
-
-.ESlider .ESlider-previous:before, .ESlider .ESlider-previous:after, .ESlider .ESlider-next:before, .ESlider .ESlider-next:after
-{
-    content: '';
-    display: block;
-    position: absolute;
-    height: 20px;
-    width: 2px;
-    background: #FFF;
-    top: 50%;
-    margin-top: -10px;
-}
-
-.ESlider .ESlider-previous:before { transform: rotate(45deg) translateY(-50%); }
-.ESlider .ESlider-previous:after { transform: rotate(-45deg) translateY(50%); }
-
-.ESlider .ESlider-next:before { transform: rotate(-45deg) translateY(-50%); }
-.ESlider .ESlider-next:after { transform: rotate(45deg) translateY(50%); }
-
-.ESlider .ESlider-previous:before, .ESlider .ESlider-previous:after
-{
-    left: 50%;
-    margin-left: -10px;
-}
-
-.ESlider .ESlider-next:before, .ESlider .ESlider-next:after
-{
-    right: 50%;
-    margin-right: -10px;
-}
-
-.ESlider .ESlider-previous:hover, .ESlider .ESlider-next:hover { background: rgba(0,0,0,0.3); }
-.ESlider .ESlider-previous { left: -10%; }
-.ESlider .ESlider-next { right: -10%; }
-.ESlider:hover .ESlider-previous { left: 0; }
-.ESlider:hover .ESlider-next { right: 0; }
