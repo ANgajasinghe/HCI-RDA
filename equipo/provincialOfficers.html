@@ -138,38 +138,39 @@
 			  <div class="card-body">
 				<div class="row">
 					<div class="row">
-					  <div class="col-sm-6">
+					  <div class="col-sm-4">
 						<div class="">
 						  <div class="card-body">
-								<div class="dropdown ">
-								  <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Select the Province
-								  </button>
-								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="province">
-									<a class="dropdown-item" href="#">Colombo</a>
-									<a class="dropdown-item" href="#">Kaduwela</a>
-									<a class="dropdown-item" href="#">Malabe</a>
-									<a class="dropdown-item" href="#">Athurugiriya</a>
-								  </div>
-								</div>
+								 <select id="Province" onchange="getProvince()">  <!--Call run() function-->
+									 <option value="0">Select The Province</option>
+									 <option value="Western Province">Western Province</option>
+									 <option value="Southern Province">Southern Province</option>
+									 <option value="Central Province">Central Province</option>
+									 <option value="Sabaragamuwa Province">Sabaragamuwa Province</option>
+									 <option value="Easten Province(Akkareipattuwa)">Easten Province(Akkareipattuwa)</option>
+									 <option value="Uva Province">Uva Province</option>
+									 <option value="Northern Province">Northern Province</option>
+									 <option value="North Western Province">North Western Province</option>
+									 <option value="North Central Province">North Central Province</option>
+								</select>
 								
 						  </div>
 						</div>
 					  </div>
-					  <div class="col-sm-6">
+					  <div class="col-sm-4">
+						<div class="">
+						  <div class="card-body ">
+								 <select id="District" onchange="getDistrict()">  <!--Call run() function-->
+									 <option value="0">Select The District</option>
+									
+								</select>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-sm-4">
 						<div class="">
 						  <div class="card-body">
-								<div class="dropdown">
-								  <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Select the Discric
-								  </button>
-								  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="province">
-									<a class="dropdown-item" href="#">Colombo</a>
-									<a class="dropdown-item" href="#">Kaduwela</a>
-									<a class="dropdown-item" href="#">Malabe</a>
-									<a class="dropdown-item" href="#">Athurugiriya</a>
-								  </div>
-								</div>
+								<button type="button" class="btn btn-warning">View Details</button>
 						  </div>
 						</div>
 					  </div>
@@ -177,7 +178,7 @@
 					
 					
 				</div>
-				<h4>You selected province <b> 6 </b> </h4><h4>You selected Distric  <b> </b> </h4>
+				<h4>You selected province <b id="p"> -- </b> </h4><h4>You selected Distric  <b id="d"> -- </b> </h4>
 				
 			
 			  </div>
@@ -306,7 +307,130 @@
 	<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 
 <script>
-
+	function getProvince() {
+	
+		document.getElementById("p").innerHTML = document.getElementById("Province").value;
+		if(document.getElementById("Province").value == "Western Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Colombo", "Colombo"));
+			docfrag.appendChild(new Option("Gampaha", "Gampaha"));
+			docfrag.appendChild(new Option("Kalutara", "Kalutara"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Southern Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Galle", "Galle"));
+			docfrag.appendChild(new Option("Matara", "Matara"));
+			docfrag.appendChild(new Option("Hambantota", "Hambantota"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Central Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Kandy", "Kandy"));
+			docfrag.appendChild(new Option("Nuwara Eliya", "Nuwara Eliya"));
+			docfrag.appendChild(new Option("Matale", "Matale"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Sabaragamuwa Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Ratnapura", "Ratnapura"));
+			docfrag.appendChild(new Option("Kegalle", "Kegalle"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Northern Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Mulativu", "Mulativu"));
+			docfrag.appendChild(new Option("Vavniya", "Vavniya"));
+			docfrag.appendChild(new Option("Jaffna", "Jaffna"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "North Western Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Kurunagala", "Kurunagala"));
+			docfrag.appendChild(new Option("Chillaw", "Chillaw"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "North Central Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Anuradhapura", "Anuradhapura"));
+			docfrag.appendChild(new Option("Polonnaruwa", "Polonnaruwa"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Eastern Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Batticaloa", "Batticaloa"));
+			docfrag.appendChild(new Option("Trincomalee", "Trincomalee"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Eastern Province(Akkaraipattu)") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Ampara", "Ampara"));
+			docfrag.appendChild(new Option("Akkaraipattu", "Akkaraipattu"));
+			docfrag.appendChild(new Option("Kalmunai", "Kalmunai"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+		if(document.getElementById("Province").value == "Uva Province") {
+			document.getElementById('District').innerHTML = "";
+			
+			var docfrag = document.createDocumentFragment();
+			docfrag.appendChild(new Option("Select The District", "0"));
+			docfrag.appendChild(new Option("Badulla", "Badulla"));
+			docfrag.appendChild(new Option("Monaragala", "Monaragala"));
+			
+			var select = document.getElementById("District");
+			select.appendChild(docfrag);
+		}
+	}
+	function getDistrict() {
+	
+		document.getElementById("d").innerHTML = document.getElementById("District").value;
+	
+	}
 </script>
 </body>
 
