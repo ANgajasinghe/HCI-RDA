@@ -1,3 +1,9 @@
+/*
+CUSTOME CSS -INDEX PAGE
+*/
+
+
+
 nav {
   -webkit-transition: all .5s ease-out;
   transition: all .5s ease-out;
@@ -122,8 +128,51 @@ nav.black {
 
 }
 
+.related-web-site{
+  position: absolute;
+  top:16%;
+}
+
+
+.scrollbar
+{
+	float: left;
+	height: 300px;
+	width: 100%;
+	background: transparent;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow
+{
+	min-height: 450px;
+}
 /*
-CUSTOME CSS -END
+ *  STYLE 4
+ */
+
+ #style-4::-webkit-scrollbar-track
+ {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   background-color: transparent;
+ }
+ 
+ #style-4::-webkit-scrollbar
+ {
+   width: 2px;
+   background-color: transparent;
+ }
+ 
+ #style-4::-webkit-scrollbar-thumb
+ {
+   background-color: #ffc107;
+   border: 2px solid #ffc107;
+ }
+ 
+ 
+/*
+CUSTOME CSS -INDEX PAGE END
 */
 
 
