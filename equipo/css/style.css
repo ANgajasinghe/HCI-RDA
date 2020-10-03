@@ -8515,10 +8515,13 @@ h1, h2, h3, h4, h5,
   .topper .icon {
     width: 40px;
     height: 40px;
-    background: #fff;
+    background: #ffa931;
     border: 1px solid rgba(0, 0, 0, 0.05); }
-    .topper .icon span {
-      color: #ffa931; }
+        .topper .icon i {
+          font-size: 18px;
+          color: #ffffff; }
+          .topper .icon i:hover {
+            color: #ffffff; }
   .topper .text {
     width: calc(100% - 50px); }
     .topper .text p {
@@ -9185,9 +9188,25 @@ textarea.form-control {
   .ftco-footer .ftco-heading-2 {
     font-size: 22px;
     font-weight: 900;
-    color: #fff;
+    color: #ffa931;
     text-transform: uppercase;
     margin-bottom: 40px; }
+    .ftco-footer .ftco-footer-widget ul{
+      list-style: none;
+    }
+    .ftco-footer .ftco-footer-widget button[type="submit"] {
+      background: #d69213;
+      border: 0;
+      padding: 12px 34px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 10px;
+    }
+    .ftco-footer .ftco-footer-widget button[type="submit"]:hover {
+      background: linear-gradient(to right, #d69213, #e6c17c);
+    }
+    
+
   .ftco-footer .logo a {
     color: #ffa931; }
     .ftco-footer .logo a span.flaticon {
