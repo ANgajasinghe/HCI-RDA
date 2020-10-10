@@ -20,7 +20,7 @@
 .subnavbar a:hover {
     font-size: 22px;
     font-weight: 600;
-    color: #000000;
+    color: #189bff;
 }
 
 /*--------------------------------------------------------------
@@ -37,11 +37,11 @@
 
 .contact .info i {
     font-size: 20px;
-    color: #ffa931;
+    color: #0077d1;
     float: left;
     width: 44px;
     height: 44px;
-    background: #fff8eb;
+    background: #ebf6ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@
 .contact .info .address:hover i,
 .contact .info .phone:hover i,
 .contact .info .fax:hover i {
-    background: #042e4f;
+    background: #0077d1;
     color: #ffffff;
 }
 
@@ -87,12 +87,12 @@
 
 .contact input,
 .contact textarea {
-    border-color: #d69213;
+    border-color: #042e4f;
 }
 
 .contact .php-email-form input {
     height: 44px;
-    border-color: #ffa931;
+    border-color: #042e4f;
 }
 
 .contact .php-email-form textarea {
@@ -100,7 +100,8 @@
 }
 
 .contact label {
-    color: #ffa931;
+    color: #042e4f;
+    font-weight: bold;
 }
 
 
@@ -207,7 +208,7 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 5px;
-    background: rgb(255, 253, 250);
+    background: #f0f0f0;
     transition: 0.5s;
 }
 
@@ -233,8 +234,8 @@
 .team .member:hover {
     transform: translateY(-10px);
     border-radius: 30px;
-    box-shadow: 5px 10px #fff5e1;
-    background: #fffcf6;
+    box-shadow: 5px 10px #ebf6ff;
+    background: #f3faff;
 }
 
 .team .member .member-info {
@@ -288,7 +289,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-    background: #f8f6ef;
+    background: #ebf6ff;
 }
 
 .team .member .social a i {
@@ -559,24 +560,24 @@
 }
 
 #portfolio #portfolio-flters li {
-    cursor: pointer;
-    margin: 15px 15px 15px 0;
-    display: inline-block;
-    padding: 6px 20px;
+    background: #d69213;
     font-size: 20px;
     font-weight: bold;
-    line-height: 20px;
-    color: #042e4f;
-    border-radius: 50px;
+    cursor: pointer;
+    margin: 15px 15px 15px 0;
     text-transform: uppercase;
-    background: #fcecd5;
-    margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; 
+    display: inline-block;
+    border: 0;
+    padding: 6px 20px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-    background: #042e4f;
+    background: linear-gradient(to right, #d69213, #e6c17c);
     color: #fff;
 }
 
