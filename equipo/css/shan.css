@@ -1,0 +1,50 @@
+.bgImg1 {
+  background-image: url("../images/slide1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgImg2 {
+  background-image: url("../images/slide2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgImg3 {
+  background-image: url("../images/slide3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImgHeader {
+  background-image: url("../images/slider-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImgHeader2 {
+  background-image: url("../images/offices.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImgHeader3 {
+  background-image: url("../images/hrd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Blink for Webkit and others
+(Chrome, Safari, Firefox, IE, ...)
+*/
+
+@-webkit-keyframes blinker {
+  from {opacity: 1.0;}
+  to {opacity: 0.0;}
+}
+.blink{
+	text-decoration: blink;
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}
