@@ -1,13 +1,12 @@
 .subnavbar {
-    border-top: 3px solid #ffa931;
-    border-bottom: 3px solid #ffa931;
-    border-left: 3px solid #ffa931;
-    border-right: 3px solid #ffa931;
+    border-top: 3px solid #042e4f;
+    border-bottom: 3px solid #042e4f;
+    border-left: 3px solid #042e4f;
+    border-right: 3px solid #042e4f;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
     text-align: center;
-    color: #ff9100;
 }
 
 .subnavbar a {
@@ -15,7 +14,7 @@
     font-weight: 600;
     margin: 0 30px;
     margin-bottom: 5px;
-    color: #ffa931;
+    color: #042e4f;
 }
 
 .subnavbar a:hover {
@@ -28,8 +27,8 @@
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-    border-top: 3px solid #ffa931;
-    border-bottom: 3px solid #ffa931;
+    border-top: 3px solid #042e4f;
+    border-bottom: 3px solid #042e4f;
     padding: 30px;
     background: #fff;
     width: 100%;
@@ -55,14 +54,14 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #ffa931;
+    color: #042e4f;
 }
 
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #ff9900;
+    color: #005799;
 }
 
 .contact .info .email p {
@@ -73,67 +72,22 @@
 .contact .info .address:hover i,
 .contact .info .phone:hover i,
 .contact .info .fax:hover i {
-    background: #d69213;
+    background: #042e4f;
     color: #ffffff;
 }
 
-.contact .php-email-form {
+/* .contact .php-email-form {
     width: 100%;
     border-top: 3px solid #ffa931;
     border-bottom: 3px solid #ffa931;
     padding: 30px;
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .php-email-form .form-group {
-    padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-    box-shadow: none;
-    font-size: 20px;
-    border-radius: 4px;
-}
+} */
 
 .contact input,
 .contact textarea {
     border-color: #d69213;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-    border-color: #ffa931;
 }
 
 .contact .php-email-form input {
@@ -149,68 +103,12 @@
     color: #ffa931;
 }
 
-/* View More button */
-/* .view-more-btn {
-    margin-left: 15px;
-    margin-right: 15px;
-    font-weight: bold;
-    color: rgb(223, 49, 49);
-    border-radius: 50px;
-    padding: 6px 13px 6px 13px;
-    white-space: nowrap;
-    transition: 0.3s;
-    font-size: 14px;
-    display: inline-block;
-    border: 1px solid #ffa931;
-}
-
-.view-more-btn:hover {
-    background: linear-gradient(to right, #125675, #52a1c5);
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-} */
-
-.section-title {
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-.section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #d69213;
-}
-
-.section-title h2::before,
-.section-title h2::after {
-    content: '';
-    width: 10px;
-    height: 2px;
-    background: #d69213;
-    display: inline-block;
-}
-
-.section-title h2::before {
-    margin: 0 15px 10px 0;
-}
-
-.section-title h2::after {
-    margin: 0 0 10px 15px;
-}
-
-.section-title p {
-    margin-bottom: 0;
-}
 
 /* Contact Us Form */
 .contact .php-email-form {
     width: 100%;
-    border-top: 3px solid #d69213;
-    border-bottom: 3px solid #d69213;
+    border-top: 3px solid #042e4f;
+    border-bottom: 3px solid #042e4f;
     padding: 30px;
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -277,7 +175,7 @@
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-    border-color: #d69213;
+    border-color: #042e4f;
 }
 
 .contact .php-email-form input {
@@ -347,14 +245,14 @@
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #d69213;
+    color: #042e4f;
 }
 
 .team .member span {
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
-    color: #ff9100;
+    color: #000000;
     position: relative;
     font-weight: 500;
 }
@@ -394,13 +292,13 @@
 }
 
 .team .member .social a i {
-    color: #d69213;
+    color: #0077d1;
     font-size: 20px;
     margin: 0 2px;
 }
 
 .team .member .social a:hover {
-    background: #e1a537;
+    background: #0077d1;
 }
 
 .team .member .social a:hover i {
@@ -414,70 +312,71 @@
 .section-title {
     text-align: center;
     padding-bottom: 30px;
-  }
-  
-  .section-title h2 {
+}
+
+.section-title h2 {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #d69213;
-  }
-  
-  .section-title h2::before, .section-title h2::after {
+    color: #042e4f;
+}
+
+.section-title h2::before,
+.section-title h2::after {
     content: '';
     width: 10px;
     height: 2px;
-    background: #d69213;
+    background: #042e4f;
     display: inline-block;
-  }
-  
-  .section-title h2::before {
+}
+
+.section-title h2::before {
     margin: 0 15px 10px 0;
-  }
-  
-  .section-title h2::after {
+}
+
+.section-title h2::after {
     margin: 0 0 10px 15px;
-  }
-  
-  .section-title p {
+}
+
+.section-title p {
     margin-bottom: 0;
-  }
+}
 
-  .team ul {
+.team ul {
     list-style: none;
-  }
+}
 
-  .team li {
+.team li {
     padding-bottom: 10px;
-  }
+}
 
-  .navbar {
+/* .navbar {
     border-top: 3px solid #042e4f;
     border-bottom: 3px solid #042e4f;
     border-left: 3px solid #042e4f;
     border-right: 3px solid #042e4f;
     font-size: 22px;
     font-weight: 600;
-    color: #ff9100;
+    color: #042e4f;
   }
   
   .navbar a {
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #ff9100;
+    color: #042e4f;
   }
   
   .navbar a:hover {
     font-size: 22px;
     font-weight: 600;
     color: #000000;
-  }
+  } */
 
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
@@ -657,9 +556,9 @@
     margin: 5px 0 35px 0;
     list-style: none;
     text-align: center;
-  }
-  
-  #portfolio #portfolio-flters li {
+}
+
+#portfolio #portfolio-flters li {
     cursor: pointer;
     margin: 15px 15px 15px 0;
     display: inline-block;
@@ -667,20 +566,20 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 20px;
-    color: #ffa931;
+    color: #042e4f;
     border-radius: 50px;
     text-transform: uppercase;
     background: #fcecd5;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-    background: #ffa931;
+}
+
+#portfolio #portfolio-flters li:hover,
+#portfolio #portfolio-flters li.filter-active {
+    background: #042e4f;
     color: #fff;
-  }
-  
-  #portfolio #portfolio-flters li:last-child {
+}
+
+#portfolio #portfolio-flters li:last-child {
     margin-right: 0;
-  }
-  
+}
