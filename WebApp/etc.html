@@ -131,7 +131,7 @@
                                 Electronic Toll Collection or "ETC" is the most cost effective and convinient
                                 way to pay for your user fee.
                             </p>
-                            <button class="btn btn-primary"> Apply For ETC </button>
+                            <button class="btn btn-primary"  data-toggle="modal" data-target=".bd-example-modal-lg"> Apply For ETC </button>
                         </div>
                     </div>
                 </div>
@@ -1147,11 +1147,13 @@
                                             <p style="color: #000000;">ONLINE METHOD</p>
                                             <p>Alternatively you can register for ETC through online application method.
                                             </p>
-                                            <a href="http://www.rda.gov.lk/supported/noticeboard/etc/pdf/guidelines_eng.pdf"
+                                            <a 
                                                 target="_blank" rel="noopener noreferrer"
+                                                class="btn btn-primary"
+                                                data-toggle="modal" data-target=".bd-example-modal-lg"
                                                 title="Click To Fill ETC Online Form">
-                                                <i class="fa fa-check-circle-o" style="font-size: 50px;"
-                                                    aria-hidden="true"></i>
+                                                
+                                                Apply Now
                                             </a>
                                         </div>
                                     </div>
@@ -1198,6 +1200,87 @@
 
 
 
+
+
+
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">ETC Customer Service Application Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="centred-form">
+                    <div class="field">
+                        <input type="text" id="cus-name" name="cus-name" class="field-input" required>
+                        <label for="cus-name" class="field-label">Name with Initials</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="text" id="company-name" name="company-name" class="field-input" required>
+                        <label for="company-name" class="field-label">Company Name</label>
+                    </div>  
+                    <small><span class="text-danger">*</span>If the vehicle belongs to a company</small>
+
+                    <div class="field">
+                        <input type="text" id="nic" name="nic" class="field-input" required minlength="10" maxlength="12">
+                        <label for="nic" class="field-label">NIC No / Passport No</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="text" id="license-no" name="license-no" class="field-input" required>
+                        <label for="license-no" class="field-label">Driving License No</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="number" id="contact-tel" name="contact-tel" class="field-input" required>
+                        <label for="contact-tel" class="field-label">Contact Tel</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="email" id="email" name="email" class="field-input" required>
+                        <label for="email" class="field-label">Email</label>
+                    </div>
+
+                    <div class="field">
+                        <input type="text" id="resident" name="resident" class="field-input" required>
+                        <label for="resident" class="field-label">Resident / Business Address:</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" id="postal-code" name="postal-code" class="field-input" required>
+                        <label for="postal-code" class="field-label">Postal Code:</label>
+                    </div><small><span class="text-danger">*</span>Ex 60155</small>
+
+                    <p></p>
+                    Payment Methods
+                    <br>
+                     <select  class="form-control-sm" id="exampleFormControlSelect2" required>
+                        <option>Direct Debit - If you have BOC account, you can register to auto topup system </option>
+                        <option> Internet Banking - BOC internet banking</option>
+                      </select>
+
+                      <br>
+  
+                    <div class="form-check mt-5">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">
+                            I agree to theand hereby 
+                            certify to the informationTerms and Conditions
+                             of the ETC Customer Service AgreementI have provided 
+                             herein to be accurate and true</label>
+                      </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
