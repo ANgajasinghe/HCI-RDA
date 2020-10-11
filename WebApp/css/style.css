@@ -10096,3 +10096,17 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .applyetc {
+      background: #d69213;
+      border: 0;
+      font-weight: bold;
+      padding: 5px 14px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 10px;
+  }
+  
+  .applyetc:hover {
+      background: linear-gradient(to right, #d69213, #e6c17c);
+  }
