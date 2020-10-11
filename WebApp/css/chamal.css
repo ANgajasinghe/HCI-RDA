@@ -76,15 +76,6 @@
     color: #ffffff;
 }
 
-/* .contact .php-email-form {
-    width: 100%;
-    border-top: 3px solid #ffa931;
-    border-bottom: 3px solid #ffa931;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-} */
-
 .contact input,
 .contact textarea {
     border-color: #042e4f;
@@ -545,7 +536,7 @@
     cursor: pointer;
     margin: 15px 15px 15px 0;
     text-transform: uppercase;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
     display: inline-block;
     border: 0;
     padding: 6px 20px;
