@@ -27,8 +27,8 @@
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-    border-top: 3px solid #042e4f;
-    border-bottom: 3px solid #042e4f;
+    border-top: 3px solid #ffa931;
+    border-bottom: 3px solid #ffa931;
     padding: 30px;
     background: #fff;
     width: 100%;
@@ -37,11 +37,11 @@
 
 .contact .info i {
     font-size: 20px;
-    color: #0077d1;
+    color: #ffa931;
     float: left;
     width: 44px;
     height: 44px;
-    background: #ebf6ff;
+    background: #fff8eb;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,14 +54,14 @@
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #042e4f;
+    color: #ffa931;
 }
 
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
     font-size: 14px;
-    color: #005799;
+    color: #ff9900;
 }
 
 .contact .info .email p {
@@ -72,44 +72,14 @@
 .contact .info .address:hover i,
 .contact .info .phone:hover i,
 .contact .info .fax:hover i {
-    background: #0077d1;
+    background: #d69213;
     color: #ffffff;
 }
 
-/* .contact .php-email-form {
+.contact .php-email-form {
     width: 100%;
     border-top: 3px solid #ffa931;
     border-bottom: 3px solid #ffa931;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-} */
-
-.contact input,
-.contact textarea {
-    border-color: #042e4f;
-}
-
-.contact .php-email-form input {
-    height: 44px;
-    border-color: #042e4f;
-}
-
-.contact .php-email-form textarea {
-    padding: 10px 12px;
-}
-
-.contact label {
-    color: #042e4f;
-    font-weight: bold;
-}
-
-
-/* Contact Us Form */
-.contact .php-email-form {
-    width: 100%;
-    border-top: 3px solid #042e4f;
-    border-bottom: 3px solid #042e4f;
     padding: 30px;
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -142,7 +112,118 @@
     background: #18d26e;
     text-align: center;
     padding: 15px;
-    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+    box-shadow: none;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.contact input,
+.contact textarea {
+    border-color: #d69213;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+    border-color: #ffa931;
+}
+
+.contact .php-email-form input {
+    height: 44px;
+    border-color: #ffa931;
+}
+
+.contact .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.contact label {
+    color: #ffa931;
+}
+
+/* View More button */
+/* .view-more-btn {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+    color: rgb(223, 49, 49);
+    border-radius: 50px;
+    padding: 6px 13px 6px 13px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    border: 1px solid #ffa931;
+}
+
+.view-more-btn:hover {
+    background: linear-gradient(to right, #125675, #52a1c5);
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+} */
+
+
+/* Contact Us Form */
+.contact .php-email-form {
+    width: 100%;
+    border-top: 3px solid #d69213;
+    border-bottom: 3px solid #d69213;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+    display: none;
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
     font-weight: 600;
 }
 
@@ -176,7 +257,7 @@
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-    border-color: #042e4f;
+    border-color: #d69213;
 }
 
 .contact .php-email-form input {
@@ -310,6 +391,7 @@
     margin-left: 8px;
 }
 
+
 .section-title {
     text-align: center;
     padding-bottom: 30px;
@@ -346,192 +428,15 @@
     margin-bottom: 0;
 }
 
-.team ul {
+  .team ul {
     list-style: none;
-}
+  }
 
-.team li {
+  .team li {
     padding-bottom: 10px;
-}
+  }
 
-
-
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-    position: fixed;
-    display: none;
-    right: 15px;
-    bottom: 15px;
-    z-index: 99999;
-}
-
-.back-to-top i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #ffa931;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #ffffff;
-    color: #ffa931;
-    transition: all 0.4s;
-}
-
-.back-to-top i:hover {
-    background: #ffa931;
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Back-to-fb Button
---------------------------------------------------------------*/
-.back-to-fb {
-    position: fixed;
-    right: 15px;
-    bottom: 70px;
-    z-index: 99999;
-}
-
-.back-to-fb i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #3b5998;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #fff;
-    color: #3b5998;
-    transition: all 0.4s;
-}
-
-.back-to-fb i:hover {
-    background: #3b5998;
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Back-to-insta Button
---------------------------------------------------------------*/
-.back-to-insta {
-    position: fixed;
-    right: 15px;
-    bottom: 125px;
-    z-index: 99999;
-}
-
-.back-to-insta i {
-    display: flex;
-    align-items: center;
-    border: 2px solid #e03cc5;
-    justify-content: center;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #fff;
-    color: #e03cc5;
-    transition: all 0.4s;
-}
-
-.back-to-insta i:hover {
-    background: linear-gradient(to bottom right, #401275, #c739c7, #e983e0, #f3e95d);
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Back-to-twitt Button
---------------------------------------------------------------*/
-.back-to-twitt {
-    position: fixed;
-    right: 15px;
-    bottom: 180px;
-    z-index: 99999;
-}
-
-.back-to-twitt i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #00acee;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #fff;
-    color: #00acee;
-    transition: all 0.4s;
-}
-
-.back-to-twitt i:hover {
-    background: #00acee;
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Back-to-goog Button
---------------------------------------------------------------*/
-.back-to-goog {
-    position: fixed;
-    right: 15px;
-    bottom: 235px;
-    z-index: 99999;
-}
-
-.back-to-goog i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #db4a39;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #fff;
-    color: #db4a39;
-    transition: all 0.4s;
-}
-
-.back-to-goog i:hover {
-    background: #db4a39;
-    color: #fff;
-}
-
-/*--------------------------------------------------------------
-# Back-to-link Button
---------------------------------------------------------------*/
-.back-to-link {
-    position: fixed;
-    right: 15px;
-    bottom: 290px;
-    z-index: 99999;
-}
-
-.back-to-link i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #0e76a8;
-    font-size: 24px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    background: #fff;
-    color: #0e76a8;
-    transition: all 0.4s;
-}
-
-.back-to-link i:hover {
-    background: #0e76a8;
-    color: #fff;
-}
-
-#portfolio #portfolio-flters {
+  #portfolio #portfolio-flters {
     padding: 0;
     margin: 5px 0 35px 0;
     list-style: none;
