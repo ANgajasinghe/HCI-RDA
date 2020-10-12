@@ -99,7 +99,7 @@
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg ftco-navbar-light black" id="ftco-navbar"
+	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black" id="ftco-navbar"
 		style="z-index: 50;">
 		<div class="container d-flex align-items-center">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -108,75 +108,37 @@
 			</button>
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav m-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">National Highways</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Maps</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">ETC</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Notices</a></li>
-					<li class="nav-item active"><a href="contact.html" class="nav-link">Contact Us</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- END nav -->
-
-	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/contactus.jpg');"
-    data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text align-items-end justify-content-start">
-        <div class="col-md-9 ftco-animate pb-5">
-          <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
-                  class="fa fa-chevron-right"></i></a></span> <span>Contact Us <i class="fa fa-chevron-right"></i>
-					Provincial Officers <i class="fa fa-chevron-right"></i></span></p>
-          <h1 class="mb-3 bread">Provincial Officers</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-    <div class="container">
-      <div class="row justify-content-center mb-5 pb-3">
-        <div class="col-md-7 heading-section text-center ftco-animate">
-          <span class="subheading">Contact us</span>
-        </div>
-      </div>
-
-      <!-- The SubNavigation menu -->
-      <div class="container pt-2">
-        <div class="subnavbar">
-          <a href="contact.html">Information Center</a>
-          <a href="manageunit.html">Management Unit</a>
-          <a class="active" href="#">Provincial Officers</a>
-          <a href="ProjectManageUnit.html">Project Management Unit</a>
-        </div>
-      </div><br><br>
-      <!-- End SubNav -->
-
-	  </div>
-  </section>
-      <!-- End Contact Section -->
 	
-		<!-- <div class="jumbotron text-center bgImgHeader2 text-white">
-			  <h1 class="display-4" style="visibility : hidden">Provincial Officers</h1>
+		<div class="jumbotron text-center bgImgHeader2 text-white">
+			  <h1 class="display-4" style="visibility : hidden">Provincial Offices</h1>
 			  <p class="lead" style="visibility : hidden">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
 			  <hr class="my-4" style="visibility : hidden">
 			  <p style="visibility : hidden">It uses utility classes for typography and spacing to space content out within the larger container.</p>
 			  <p class="lead" style="visibility : hidden">
 				<a class="btn btn-primary btn-lg" href="#" role="button" style="visibility: hidden;">Contact Us</a> 
 			  </p>
-		</div> -->
+		</div>
 		
 		<div class="row mx-2">
-		  <div class="col-sm-5">
+		  <div class="col-sm-6">
 			<div class="">
 			  <div class="card-body">
 				<div class="row">
 					<div class="row">
-					  <div class="col-sm-4">
+					  <div class="col-sm-4 text-center">
 						<div class="">
 						  <div class="card-body">
 								 <select id="Province" onchange="getProvince()">  <!--Call run() function-->
@@ -195,7 +157,7 @@
 						  </div>
 						</div>
 					  </div>
-					  <div class="col-sm-4">
+					  <div class="col-sm-4 text-center">
 						<div class="">
 						  <div class="card-body ">
 								 <select id="District" onchange="getDistrict()">  <!--Call run() function-->
@@ -205,7 +167,7 @@
 						  </div>
 						</div>
 					  </div>
-					  <div class="col-sm-4">
+					  <div class="col-sm-4 text-center">
 						<div class="">
 						  <div class="card-body">
 								<button type="button" class="btn btn-warning">View Details</button>
@@ -216,13 +178,13 @@
 					
 					
 				</div>
-				<h4>You selected province <b id="p"> -- </b> </h4><h4>You selected Distric  <b id="d"> -- </b> </h4>
+				<h4>Selected Province is <b id="p"> -- </b> </h4><h4>Selected District is <b id="d"> -- </b> </h4>
 				
 			
 			  </div>
 			</div>
 		  </div>
-		  <div class="col-sm-7">
+		  <div class="col-sm-6">
 			<div class="card">
 			  <div class="card-body">
 				<iframe width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=494&amp;hl=en&amp;q=%20Colombo&Gampaha+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-generator.com/'>google maps add to website</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=0c7e6e99fd85e6c13e4c0863a4dd1950d32b294b'></script>
@@ -235,88 +197,86 @@
 	
 
 
-		<footer class="ftco-footer">
-			<div class="container mb-5 pb-4">
-			  <div class="row">
+	<footer class="ftco-footer">
+		<div class="container mb-5 pb-4">
+			<div class="row">
 				<div class="col-xl-4 col-lg-4 col-md-4">
-				  <div class="ftco-footer-widget">
-					<h2 class="ftco-heading-2">Have a Questions?</h2>
-					<div class="block-23 mb-3">
-					  <ul>
-						<li><span class="fa fa-map-marker bx-tada mr-3"></span><span class="text">Information Centre,
-							07th Floor, "Maganeguma Mahamedura",
-							No. 216, Denzil Kobbekaduwa Mawatha,
-							Koswatta, Battaramulla.</span></li>
-						<li><a href="#"><span class="fa fa-phone bx-tada mr-3"></span><span class="text">+94 112 5050
-							  75</span></a></li>
-						<li><a href="#"><span class="fa fa-paper-plane bx-tada mr-3"></span><span
-							  class="text">1968@rda.gov.lk</span></a></li>
-					  </ul>
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="fa fa-map-marker bx-tada mr-3"></span><span class="text">Information
+										Centre,
+										07th Floor, "Maganeguma Mahamedura",
+										No. 216, Denzil Kobbekaduwa Mawatha,
+										Koswatta, Battaramulla.</span></li>
+								<li><a href="#"><span class="fa fa-phone bx-tada mr-3"></span><span class="text">+94 112
+											5050 75</span></a></li>
+								<li><a href="#"><span class="fa fa-paper-plane bx-tada mr-3"></span><span
+											class="text">1968@rda.gov.lk</span></a></li>
+							</ul>
+						</div>
 					</div>
-				  </div>
 				</div>
 				<div class="col-xl-4 col-lg-4 col-md-4">
-				  <div class="ftco-footer-widget">
-					<h2 class="ftco-heading-2 logo d-flex align-items-center"><a href="#"></span><span>Contact Us</span></a>
-					</h2>
-					<div class="" data-aos="fade-right" data-aos-delay="100">
-					  <form method="post" action="">
-						<ul>
-						  <li><input type="text" class="form-control" id="exampleInputName" placeholder="Your Name"></li>
-						  <li><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Email">
-						  </li>
-						  <li><input type="text" class="form-control" id="exampleInputRate" placeholder="Your Phone Number">
-						  </li>
-						  <li><textarea class="form-control" name="message" rows="3" data-rule="required"
-							  placeholder="Please write something for us"></textarea></li>
-						  <div class="text-center mt-4"><button type="submit" class="btn-read-more">Send
-							  Message</button></div>
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2 logo d-flex align-items-center"><a href="#"></span><span>Contact
+									Us</span></a></h2>
+						<div class="" data-aos="fade-right" data-aos-delay="100">
+							<form method="post" action="">
+								<ul>
+									<li><input type="text" class="form-control" id="exampleInputName"
+											placeholder="Your Name"></li>
+									<li><input type="email" class="form-control" id="exampleInputEmail1"
+											placeholder="Your Email"></li>
+									<li><input type="text" class="form-control" id="exampleInputRate"
+											placeholder="Your Phone Number"></li>
+									<li><textarea class="form-control" name="message" rows="3" data-rule="required"
+											placeholder="Please write something for us"></textarea></li>
+									<div class="text-center"><button type="submit" class="btn-read-more">Send
+											Message</button></div>
+								</ul>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-4 col-md-4">
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2">FOLLOW US</h2>
+						<ul class="list-unstyled">
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Customer Services</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Prompt Delivery</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Reliable Equipment</a>
+							</li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>New Heavy Equipment</a>
+							</li>
 						</ul>
-					  </form>
 					</div>
-				  </div>
 				</div>
-		
-				<div class="col-xl-4 col-lg-4 col-md-4">
-				  <div class="ftco-footer-widget">
-					<h2 class="ftco-heading-2">FOLLOW US</h2>
-					<ul class="list-unstyled">
-					  <li><a href="#"><span class="fa fa-facebook-official mr-3"></span>Facebook</a>
-					  </li>
-					  <li><a href="#"><span class="fa fa-youtube-play mr-3"></span>Youtube</a>
-					  </li>
-					  <li><a href="#"><span class="fa fa-twitter mr-3"></span>Twitter</a>
-					  </li>
-					</ul>
-				  </div>
-				</div>
-		
-		
-			  </div>
 			</div>
-			<div class="container-fluid bg-primary py-5">
-			  <div class="row">
+		</div>
+
+
+
+
+
+		<div class="container-fluid bg-primary py-5">
+			<div class="row">
 				<div class="col-md-12 text-center">
-		
-				  <p class="mb-0">
-					Copyright &copy;
-					<script>
-					  document.write(new Date().getFullYear());
-					</script> All rights reserved |<br><i class="fa fa-cogs" aria-hidden="true"> Developed by <strong>
-						200 OK Team</strong></i>
-				  </p>
+
+					<p class="mb-0">
+						Copyright &copy;
+						<script>
+							document.write(new Date().getFullYear());
+						</script> All rights reserved |<br><i class="fa fa-cogs" aria-hidden="true"> Developed by
+							<strong>
+								200 OK Team</strong></i>
+					</p>
 				</div>
-			  </div>
 			</div>
-		
-			<a href="" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
-			<a href="" class="back-to-fb"><i class="bx bxl-facebook"></i></a>
-			<a href="" class="back-to-insta"><i class="bx bxl-instagram"></i></a>
-			<a href="" class="back-to-twitt"><i class="bx bxl-twitter"></i></a>
-			<a href="" class="back-to-goog"><i class="bx bxl-google-plus"></i></a>
-			<a href="" class="back-to-link"><i class="bx bxl-linkedin"></i></a>
-		
-		  </footer>
+		</div>
+	</footer>
 
 
 
