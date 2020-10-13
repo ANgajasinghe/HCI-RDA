@@ -244,7 +244,8 @@
     display: block;
     font-size: 15px;
     padding-bottom: 10px;
-    color: #000000;
+    text-transform: uppercase;
+    color: #3f3f3f;
     position: relative;
     font-weight: 500;
 }
