@@ -256,3 +256,178 @@
   font-weight: 600;
   color: #189bff;
 }
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #ffa931;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #ffffff;
+  color: #ffa931;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #ffa931;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Back-to-fb Button
+--------------------------------------------------------------*/
+.back-to-fb {
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  z-index: 99999;
+}
+
+.back-to-fb i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #3b5998;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #3b5998;
+  transition: all 0.4s;
+}
+
+.back-to-fb i:hover {
+  background: #3b5998;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Back-to-insta Button
+--------------------------------------------------------------*/
+.back-to-insta {
+  position: fixed;
+  right: 15px;
+  bottom: 125px;
+  z-index: 99999;
+}
+
+.back-to-insta i {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e03cc5;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #e03cc5;
+  transition: all 0.4s;
+}
+
+.back-to-insta i:hover {
+  background: linear-gradient(to bottom right, #401275, #c739c7, #e983e0, #f3e95d);
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Back-to-twitt Button
+--------------------------------------------------------------*/
+.back-to-twitt {
+  position: fixed;
+  right: 15px;
+  bottom: 180px;
+  z-index: 99999;
+}
+
+.back-to-twitt i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #00acee;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #00acee;
+  transition: all 0.4s;
+}
+
+.back-to-twitt i:hover {
+  background: #00acee;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Back-to-goog Button
+--------------------------------------------------------------*/
+.back-to-goog {
+  position: fixed;
+  right: 15px;
+  bottom: 235px;
+  z-index: 99999;
+}
+
+.back-to-goog i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #db4a39;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #db4a39;
+  transition: all 0.4s;
+}
+
+.back-to-goog i:hover {
+  background: #db4a39;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Back-to-link Button
+--------------------------------------------------------------*/
+.back-to-link {
+  position: fixed;
+  right: 15px;
+  bottom: 290px;
+  z-index: 99999;
+}
+
+.back-to-link i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #0e76a8;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #fff;
+  color: #0e76a8;
+  transition: all 0.4s;
+}
+
+.back-to-link i:hover {
+  background: #0e76a8;
+  color: #fff;
+}

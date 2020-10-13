@@ -353,11 +353,11 @@
 }
 
 .section-title h4::before {
-    margin: 0 15px 10px 0;
+    margin: 0 10px 5px 0;
 }
 
 .section-title h4::after {
-    margin: 0 0 10px 15px;
+    margin: 0 0 5px 10px;
 }
 
 .section-title p {
