@@ -9253,6 +9253,8 @@ textarea.form-control {
     }
     .ftco-footer .ftco-footer-widget button[type="submit"]:hover {
       background: linear-gradient(to right, #d69213, #e6c17c);
+      transform: translateY(10px);
+      transition: 0.5s;
     }
     
 
@@ -9333,6 +9335,7 @@ textarea.form-control {
 
 .heading-section h2 {
   line-height: 1.2;
+  color: #042e4f;
   font-size: 40px;
   font-weight: 700; }
   .heading-section h2 span {

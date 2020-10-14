@@ -60,8 +60,8 @@
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
+    font-weight: 500;
     font-size: 14px;
-    color: #005799;
 }
 
 .contact .info .email p {
@@ -189,6 +189,8 @@
 
 .contact button[type="submit"]:hover {
     background: linear-gradient(to right, #d69213, #e6c17c);
+    transform: translateY(10px);
+    transition: 0.5s;
 }
 
 /*--------------------------------------------------------------
@@ -353,11 +355,11 @@
 }
 
 .section-title h4::before {
-    margin: 0 15px 10px 0;
+    margin: 0 10px 5px 0;
 }
 
 .section-title h4::after {
-    margin: 0 0 10px 15px;
+    margin: 0 0 5px 10px;
 }
 
 .section-title p {
@@ -575,6 +577,8 @@
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
     background: linear-gradient(to right, #d69213, #e6c17c);
+    transform: translateY(-10px);
+    transition: 0.5s;
     color: #fff;
 }
 
