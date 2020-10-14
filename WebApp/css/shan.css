@@ -431,3 +431,20 @@
   background: #0e76a8;
   color: #fff;
 }
+
+.border button[type="submit"] {
+  background: #d69213;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.border button[type="submit"]:hover {
+  background: linear-gradient(to right, #d69213, #e6c17c);
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
