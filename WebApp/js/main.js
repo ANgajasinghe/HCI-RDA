@@ -17,15 +17,21 @@ $(document).ready(function () {
 
 	$('#dark-mode').click(function (e) { 
 		$('#content-section').addClass('bg-black');
+		$('.modal-body').css('background-color','#000000')
 		$('#dark-mode').attr("hidden",true);
 		$('h2').css('color', 'white');
+		$('.field-input').css('color', 'white');
+		$('.text').css('color', 'black');
 		$('#normal-mode').attr("hidden",false);
 		
 	});
 	$('#normal-mode').click(function (e) { 
 		$('#content-section').removeClass('bg-black');
+		$('.modal-body').css('background-color','')
 		$('#dark-mode').attr("hidden",false);
 		$('h2').css('color', '');
+		$('.field-input').css('color', '');
+		$('.text').css('color', '');
 		$('#normal-mode').attr("hidden",true);
 		
 	});

@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/chamal.css">
-
-
 </head>
 
 <body>
@@ -66,7 +64,7 @@
     </div>
     </div>
     </div>
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black" id="ftco-navbar"
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black nav-boarder" id="ftco-navbar"
         style="z-index: 50;">
         <div class="container d-flex align-items-center">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -88,7 +86,7 @@
         </div>
     </nav>
     <!-- END nav -->
-
+    <div id="content-section">
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/etc/etc-main-02.png');"
         data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
@@ -104,13 +102,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
 
 
     <section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb mt-5" id="about-section">
@@ -205,7 +196,8 @@
                                     </span>
                                 </div>
                                 <div class="text">
-                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries
+                                    <p class="mb-4">
+                                        Far far away, behind the word mountains, far from the countries
                                         Vokalia</p>
                                     <p class="name">Jeff Freshman</p>
                                     <span class="position">Guests</span>
@@ -1197,92 +1189,103 @@
             </div>
         </div>
     </section>
+    </div>
 
 
 
 
 
-
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">ETC Customer Service Application Form</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="" class="centred-form">
-                    <div class="field">
-                        <input type="text" id="cus-name" name="cus-name" class="field-input" required>
-                        <label for="cus-name" class="field-label">Name with Initials</label>
-                    </div>
-
-                    <div class="field">
-                        <input type="text" id="company-name" name="company-name" class="field-input" required>
-                        <label for="company-name" class="field-label">Company Name</label>
-                    </div>  
-                    <small><span class="text-danger">*</span>If the vehicle belongs to a company</small>
-
-                    <div class="field">
-                        <input type="text" id="nic" name="nic" class="field-input" required minlength="10" maxlength="12">
-                        <label for="nic" class="field-label">NIC No / Passport No</label>
-                    </div>
-
-                    <div class="field">
-                        <input type="text" id="license-no" name="license-no" class="field-input" required>
-                        <label for="license-no" class="field-label">Driving License No</label>
-                    </div>
-
-                    <div class="field">
-                        <input type="number" id="contact-tel" name="contact-tel" class="field-input" required>
-                        <label for="contact-tel" class="field-label">Contact Tel</label>
-                    </div>
-
-                    <div class="field">
-                        <input type="email" id="email" name="email" class="field-input" required>
-                        <label for="email" class="field-label">Email</label>
-                    </div>
-
-                    <div class="field">
-                        <input type="text" id="resident" name="resident" class="field-input" required>
-                        <label for="resident" class="field-label">Resident / Business Address:</label>
-                    </div>
-                    <div class="field">
-                        <input type="text" id="postal-code" name="postal-code" class="field-input" required>
-                        <label for="postal-code" class="field-label">Postal Code:</label>
-                    </div><small><span class="text-danger">*</span>Ex 60155</small>
-
-                    <p></p>
-                    Payment Methods
-                    <br>
-                     <select  class="form-control-sm" id="exampleFormControlSelect2" required>
-                        <option>Direct Debit - If you have BOC account, you can register to auto topup system </option>
-                        <option> Internet Banking - BOC internet banking</option>
-                      </select>
-
-                      <br>
   
-                    <div class="form-check mt-5">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                        <label class="form-check-label" for="exampleCheck1">
-                            I agree to theand hereby 
-                            certify to the informationTerms and Conditions
-                             of the ETC Customer Service AgreementI have provided 
-                             herein to be accurate and true</label>
-                      </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="modal fade bd-example-modal-lg"
+        id="modal"
+        tabindex="-1" 
+        role="dialog" 
+        aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div>
+                    <div class="modal-content" >
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">ETC Customer Service Application Form</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="centred-form">
+                                <div class="field">
+                                    <input type="text" id="cus-name" name="cus-name" class="field-input" required>
+                                    <label for="cus-name" class="field-label">Name with Initials</label>
+                                </div>
+
+                                <div class="field">
+                                    <input type="text" id="company-name" name="company-name" class="field-input" required>
+                                    <label for="company-name" class="field-label">Company Name</label>
+                                </div>
+                                <small><span class="text-danger">*</span>If the vehicle belongs to a company</small>
+
+                                <div class="field">
+                                    <input type="text" id="nic" name="nic" class="field-input" required minlength="10"
+                                        maxlength="12">
+                                    <label for="nic" class="field-label">NIC No / Passport No</label>
+                                </div>
+
+                                <div class="field">
+                                    <input type="text" id="license-no" name="license-no" class="field-input" required>
+                                    <label for="license-no" class="field-label">Driving License No</label>
+                                </div>
+
+                                <div class="field">
+                                    <input type="number" id="contact-tel" name="contact-tel" class="field-input" required>
+                                    <label for="contact-tel" class="field-label">Contact Tel</label>
+                                </div>
+
+                                <div class="field">
+                                    <input type="email" id="email" name="email" class="field-input" required>
+                                    <label for="email" class="field-label">Email</label>
+                                </div>
+
+                                <div class="field">
+                                    <input type="text" id="resident" name="resident" class="field-input" required>
+                                    <label for="resident" class="field-label">Resident / Business Address:</label>
+                                </div>
+                                <div class="field">
+                                    <input type="text" id="postal-code" name="postal-code" class="field-input" required>
+                                    <label for="postal-code" class="field-label">Postal Code:</label>
+                                </div><small><span class="text-danger">*</span>Ex 60155</small>
+
+                                <p></p>
+                                Payment Methods
+                                <br>
+                                <select class="form-control-sm" id="exampleFormControlSelect2" required>
+                                    <option>Direct Debit - If you have BOC account, you can register to auto topup system
+                                    </option>
+                                    <option> Internet Banking - BOC internet banking</option>
+                                </select>
+
+                                <br>
+
+                                <div class="form-check mt-5">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        I agree to theand hereby
+                                        certify to the informationTerms and Conditions
+                                        of the ETC Customer Service AgreementI have provided
+                                        herein to be accurate and true</label>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn btn-primary"onclick="return confirm('Are you sure you want submit?')" id='etc-click' >Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+  
 
 
+    
 
 
 
@@ -1302,25 +1305,24 @@
                         <h2 class="ftco-heading-2">Have a Questions?</h2>
                         <div class="block-23 mb-3">
                             <ul>
-                                <li><span class="fa fa-map-marker bx-tada mr-3"></span><span class="text">Information
+                                <li><span class="fa fa-map-marker bx-tada mr-3"></span>
+                                    <span>Information
                                         Centre,
                                         07th Floor, "Maganeguma Mahamedura",
                                         No. 216, Denzil Kobbekaduwa Mawatha,
                                         Koswatta, Battaramulla.</span></li>
-                                <li><a href="#"><span class="fa fa-phone bx-tada mr-3"></span><span class="text">+94 112
+                                <li><a href="#"><span class="fa fa-phone bx-tada mr-3"></span><span>+94 112
                                             5050
                                             75</span></a></li>
                                 <li><a href="#"><span class="fa fa-paper-plane bx-tada mr-3"></span><span
-                                            class="text">1968@rda.gov.lk</span></a></li>
+                                            >1968@rda.gov.lk</span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4">
                     <div class="ftco-footer-widget">
-                        <h2 class="ftco-heading-2 logo d-flex align-items-center"><a href="#"></span><span>Contact
-                                    Us</span></a>
-                        </h2>
+                        <h2 class="ftco-heading-2">Contact Us</h2>
                         <div class="" data-aos="fade-right" data-aos-delay="100">
                             <form method="post" action="">
                                 <ul>
@@ -1381,6 +1383,14 @@
         <a href="" class="back-to-twitt"><i class="bx bxl-twitter"></i></a>
         <a href="" class="back-to-goog"><i class="bx bxl-google-plus"></i></a>
         <a href="" class="back-to-link"><i class="bx bxl-linkedin"></i></a>
+        <a href="#!" class="back-to-dark" id="dark-mode" title="Click to switch to dark mode">
+			<i class="fa fa-moon-o"></i></a>
+
+		<a href="#!" class="back-to-dark" id="normal-mode" title="Click to switch to dark mode"
+		   hidden
+		>
+			<i class="fa fa-sun-o" aria-hidden="true"></i>
+		</a>
 
     </footer>
 
@@ -1407,11 +1417,28 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/scrollax.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
     </script>
     <script src="js/google-map.js"></script>
 
     <script src="js/main.js"></script>
+
+
+    <script>
+
+        $("form").submit(function(e){
+               $('#modal').modal('toggle');
+               $("form")[0].reset();
+               swal("Thank you", "Your submission has been sent", "success");
+                e.preventDefault();
+
+        });
+        $('etc-click').click(function (e) { 
+            e.preventDefault();
+            
+        });
+    </script>
 
 
 </body>
