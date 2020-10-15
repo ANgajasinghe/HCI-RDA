@@ -15,7 +15,32 @@ $(document).ready(function () {
 	});
 
 
+	$('#dark-mode').click(function (e) { 
+		$('#content-section').addClass('bg-black');
+		$('#dark-mode').attr("hidden",true);
+		$('h2').css('color', 'white');
+		$('#normal-mode').attr("hidden",false);
+		
+	});
+	$('#normal-mode').click(function (e) { 
+		$('#content-section').removeClass('bg-black');
+		$('#dark-mode').attr("hidden",false);
+		$('h2').css('color', '');
+		$('#normal-mode').attr("hidden",true);
+		
+	});
+
+	
+
+
+
 });
+
+
+
+
+
+
 
 
 // Navigation active state on scroll
