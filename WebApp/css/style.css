@@ -2,7 +2,22 @@
 CUSTOME CSS -INDEX PAGE
 */
 
+.list-group-item{
+  background-color: transparent!important;
+}
+.text-02{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color:  #042E4F;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
 
+.nav-boarder{
+  border-bottom:#FFA931 5px solid;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
 
 nav {
   -webkit-transition: all .5s ease-out;
@@ -44,12 +59,13 @@ nav.black {
 }
 
 .on-slider-txt{
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.47);
   font-size: 4vw;
   font-weight: 600;
 }
 .item.active img {
-  transition: transform 5000ms linear 0s;
-  transform: scale(1.05, 1.05);
+  transition: transform 25000ms linear 0s;
+  transform: scale(1.5, 1.5);
 }
 @media all and (transform-3d),
 (-webkit-transform-3d) {
@@ -2491,16 +2507,16 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8; }
+  background-color: #042E4F;
+  border-color: #042E4F }
   .btn-info:hover {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b; }
+    background-color: #042E4F;
+    border-color: #042E4F; }
   .btn-info:focus, .btn-info.focus {
     color: #fff;
-    background-color: #138496;
-    border-color: #117a8b;
+    background-color: #042E4F;
+    border-color: #042E4F;
     -webkit-box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(58, 176, 195, 0.5); }
   .btn-info.disabled, .btn-info:disabled {

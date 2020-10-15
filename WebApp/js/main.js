@@ -12,9 +12,6 @@ $(document).ready(function () {
 		} else {
 			$('#ftco-navbar').removeClass('fixed-top');
 		}
-		console.log(cur_pos);
-
-
 	});
 });
 
