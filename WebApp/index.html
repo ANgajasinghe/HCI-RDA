@@ -26,7 +26,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/chamal.css">
 	<link rel="stylesheet" href="css/index.css">
-	
+
 	<link rel="stylesheet" href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 	<link rel="stylesheet" href="./node_modules/@glidejs/glide/dist/css/glide.theme.css">
 
@@ -54,6 +54,7 @@
 			font-size: 45px;
 			color: red;
 		}
+
 	</style>
 </head>
 
@@ -92,18 +93,32 @@
 			</div>
 		</div>
 	</div>
+	
 	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black nav-boarder" id="ftco-navbar"
 		style="z-index: 50;">
+		
 		<div class="container d-flex align-items-center">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fa fa-bars"></span> Menu
 			</button>
+			
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav m-auto">
 					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						  <a class="dropdown-item" href="#">Action</a>
+						  <a class="dropdown-item" href="#">Another action</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					  </li>
+					<!-- <li class="nav-item"><a href="#" class="nav-link">Projects</a></li> -->
 					<li class="nav-item"><a href="#" class="nav-link">National Highways</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Maps</a></li>
 					<li class="nav-item"><a href="etc.html" class="nav-link">ETC</a></li>
@@ -117,7 +132,8 @@
 	<div id="content-section" style="background-color:#000000;">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%;" data-pause="false">
 
-			<div class="absolute-Center row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+			<div
+				class="absolute-Center row no-gutters slider-text js-fullheight align-items-center justify-content-center">
 				<div class="ftco-animate text-center">
 					<div class="on-slider-txt">
 						ROAD DEVELOPMENT AUTHORITY
@@ -227,47 +243,50 @@
 								</div>
 							</div>
 						</div> -->
-				
+
 						<div class="appointment-form ftco-animate mt-lg-4">
 							<h3 class="text-02">News And Posts</h3>
-						<div class="glide">
-							<div class="glide__track" data-glide-el="track">
-								<ul class="glide__slides">
-									<li class="glide__slide">
-										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-										<div class="card-body text-center">
-											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
-												View More</a>
-										</div>
-									</li>
-									<li class="glide__slide">
-										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-										<div class="card-body text-center">
-											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
-												View More</a>
-										</div>
-									</li>
-									<li class="glide__slide">
-										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-										<div class="card-body text-center">
-											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
-												View More</a>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="glide__arrows" data-glide-el="controls">
-								<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-									<i class="fa fa-arrow-left" aria-hidden="true"></i>
-								</button>
-								<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-									<i class="fa fa-arrow-right" aria-hidden="true"></i>
-								</button>
+							<div class="glide">
+								<div class="glide__track" data-glide-el="track">
+									<ul class="glide__slides">
+										<li class="glide__slide">
+											<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+											<div class="card-body text-center">
+												<a href="#" class="btn btn-info" data-target="#model-2"
+													data-toggle="modal">
+													View More</a>
+											</div>
+										</li>
+										<li class="glide__slide">
+											<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+											<div class="card-body text-center">
+												<a href="#" class="btn btn-info" data-target="#model-2"
+													data-toggle="modal">
+													View More</a>
+											</div>
+										</li>
+										<li class="glide__slide">
+											<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+											<div class="card-body text-center">
+												<a href="#" class="btn btn-info" data-target="#model-2"
+													data-toggle="modal">
+													View More</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="glide__arrows" data-glide-el="controls">
+									<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+										<i class="fa fa-arrow-left" aria-hidden="true"></i>
+									</button>
+									<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+										<i class="fa fa-arrow-right" aria-hidden="true"></i>
+									</button>
+								</div>
 							</div>
 						</div>
-					</div>
-		
-					
+
+
 
 
 						<!-- <div id="carouselExampleControls" class="carousel slide ftco-animate" data-ride="carousel">
@@ -387,11 +406,13 @@
 											</div>
 											<div class="text-center mt-2 p-2">
 												<small>
-													The Ministry of Roads & Highways is the apex organization in Sri Lanka
+													The Ministry of Roads & Highways is the apex organization in Sri
+													Lanka
 													for
 													the Highways & Road Development sector. It is responsible for the
 													formulation of policies,
-													programmes and projects in regard to the subjects of Highways and all
+													programmes and projects in regard to the subjects of Highways and
+													all
 													subjects ..
 												</small>
 												<p class="mt-1">
@@ -449,7 +470,8 @@
 									specialized skills in Highway and Bridge Planning, Design,
 									Construction, Maintenance and Highway Safety. The organizational
 									structure is designed to
-									carry out the functions assigned to the RDA and to achieve its goals and objectives.</p>
+									carry out the functions assigned to the RDA and to achieve its goals and objectives.
+								</p>
 							</div>
 						</div>
 						<div class="row">
@@ -563,7 +585,7 @@
 					tabindex="0"></iframe>
 			</div>
 		</section>
-    </div>
+	</div>
 
 
 

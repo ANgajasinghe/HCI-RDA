@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 /*
 CUSTOME CSS -INDEX PAGE
 */
@@ -8610,16 +8617,20 @@ h1, h2, h3, h4, h5,
       font-weight: 600;
       color: #ffa931; }
 
+
+
+
+
+
+
 .ftco-navbar-light {
   background: #042e4f !important;
-  position: relative;
   z-index: 3;
   padding: 0;
-  overflow: hidden; }
+ }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #042e4f !important;
-      position: relative;
       top: 0;
       padding: 10px 20px; } }
   .ftco-navbar-light .container {
@@ -8651,7 +8662,7 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     letter-spacing: 2px; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link span {
-      position: relative;
+
       display: block;
       padding-bottom: 2px; }
       @media (max-width: 1199.98px) {

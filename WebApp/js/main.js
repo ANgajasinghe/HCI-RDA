@@ -13,7 +13,10 @@ $(document).ready(function () {
 			$('#ftco-navbar').removeClass('fixed-top');
 		}
 	});
+
+
 });
+
 
 // Navigation active state on scroll
 var nav_sections = $('section');
