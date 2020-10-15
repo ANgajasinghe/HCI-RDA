@@ -179,16 +179,16 @@
 }
 
 .contact button[type="submit"] {
-    background: #d69213;
+    background: #ffa931; 
     border: 0;
-    padding: 12px 34px;
+    padding: 10px 24px;
     color: #fff;
     transition: 0.4s;
     border-radius: 10px;
 }
 
 .contact button[type="submit"]:hover {
-    background: linear-gradient(to right, #d69213, #e6c17c);
+    background: linear-gradient(to right, #ffa931, #e6c17c);
     transform: translateY(10px);
     transition: 0.5s;
 }
@@ -319,47 +319,12 @@
     color: #042e4f;
 }
 
-.section-title h2::before,
-.section-title h2::after {
-    content: '';
-    width: 10px;
-    height: 2px;
-    background: #042e4f;
-    display: inline-block;
-}
-
-.section-title h2::before {
-    margin: 0 15px 10px 0;
-}
-
-.section-title h2::after {
-    margin: 0 0 10px 15px;
-}
-
-
 .section-title h4 {
     font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
     position: relative;
     color: #074474;
-}
-
-.section-title h4::before,
-.section-title h4::after {
-    content: '';
-    width: 10px;
-    height: 2px;
-    background: #074474;
-    display: inline-block;
-}
-
-.section-title h4::before {
-    margin: 0 10px 5px 0;
-}
-
-.section-title h4::after {
-    margin: 0 0 5px 10px;
 }
 
 .section-title p {
@@ -559,7 +524,7 @@
 }
 
 #portfolio #portfolio-flters li {
-    background: #d69213;
+    background: #ffa931;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -576,7 +541,7 @@
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-    background: linear-gradient(to right, #d69213, #e6c17c);
+    background: linear-gradient(to right, #ffa931, #e6c17c);
     transform: translateY(-10px);
     transition: 0.5s;
     color: #fff;

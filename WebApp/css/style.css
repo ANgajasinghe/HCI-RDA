@@ -9244,7 +9244,7 @@ textarea.form-control {
       list-style: none;
     }
     .ftco-footer .ftco-footer-widget button[type="submit"] {
-      background: #d69213;
+      background: #ffa931;
       border: 0;
       padding: 12px 34px;
       color: #fff;
@@ -9252,7 +9252,7 @@ textarea.form-control {
       border-radius: 10px;
     }
     .ftco-footer .ftco-footer-widget button[type="submit"]:hover {
-      background: linear-gradient(to right, #d69213, #e6c17c);
+      background: linear-gradient(to right, #ffa931, #e6c17c);
       transform: translateY(10px);
       transition: 0.5s;
     }
