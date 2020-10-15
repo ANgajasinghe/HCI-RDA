@@ -448,3 +448,32 @@
   transform: translateY(-10px);
   transition: 0.5s;
 }
+
+/*--------------------------------------------------------------
+# Back-to-dark Button
+--------------------------------------------------------------*/
+.back-to-dark {
+  position: fixed;
+  right: 15px;
+  bottom: 345px;
+  z-index: 99999;
+}
+
+.back-to-dark i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #9d9d9d;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background: #ffffff;
+  color: #000000;
+  transition: all 0.4s;
+}
+
+.back-to-dark i:hover {
+  background: #000000;
+  color: #fff;
+}

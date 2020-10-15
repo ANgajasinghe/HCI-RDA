@@ -581,3 +581,19 @@
 #portfolio #portfolio-flters li:last-child {
     margin-right: 0;
 }
+
+
+.applyetc {
+    background: #ffa931; 
+    border: 0;
+    padding: 8px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.applyetc:hover {
+    background: linear-gradient(to right, #ffa931, #e6c17c);
+    transform: translateY(10px);
+    transition: 0.5s;
+}
