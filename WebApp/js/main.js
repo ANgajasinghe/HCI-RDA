@@ -20,6 +20,7 @@ $(document).ready(function () {
 		$('.modal-body').css('background-color','#000000')
 		$('#dark-mode').attr("hidden",true);
 		$('h2').css('color', 'white');
+		$('h3').css('color', 'white');
 		$('.field-input').css('color', 'white');
 		$('.text').css('color', 'black');
 		$('#normal-mode').attr("hidden",false);
@@ -30,6 +31,7 @@ $(document).ready(function () {
 		$('.modal-body').css('background-color','')
 		$('#dark-mode').attr("hidden",false);
 		$('h2').css('color', '');
+		$('h3').css('color', '#052F50');
 		$('.field-input').css('color', '');
 		$('.text').css('color', '');
 		$('#normal-mode').attr("hidden",true);
