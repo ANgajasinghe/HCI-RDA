@@ -22,8 +22,13 @@
 	<link rel="stylesheet" href="css/jquery.timepicker.css">
 
 	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/etc.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/chamal.css">
+	<link rel="stylesheet" href="css/index.css">
+	
+	<link rel="stylesheet" href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+	<link rel="stylesheet" href="./node_modules/@glidejs/glide/dist/css/glide.theme.css">
 
 
 	<style>
@@ -87,7 +92,7 @@
 			</div>
 		</div>
 	</div>
-	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black" id="ftco-navbar"
+	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark ftco-navbar-light black nav-boarder" id="ftco-navbar"
 		style="z-index: 50;">
 		<div class="container d-flex align-items-center">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -109,296 +114,374 @@
 		</div>
 	</nav>
 	<!-- END nav -->
+	<div id="content-section" style="background-color:#000000;">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%;" data-pause="false">
 
-	<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%;" data-pause="false">
-
-		<div class="absolute-Center row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-			<div class="ftco-animate text-center">
-				<div class="on-slider-txt">
-					ROAD DEVELOPMENT AUTHORITY
+			<div class="absolute-Center row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+				<div class="ftco-animate text-center">
+					<div class="on-slider-txt">
+						ROAD DEVELOPMENT AUTHORITY
+					</div>
+					<p><a href="#" class="btn-sm btn-warning"><span class="fa fa-phone mr-3"></span>Contact us</a> </p>
 				</div>
-				<p><a href="#" class="btn-sm btn-warning"><span class="fa fa-phone mr-3"></span>Contact us</a> </p>
+
 			</div>
 
+
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner carousel-zoom carousel-fade" style="width: 100%; position: relative;">
+				<div class="carousel-item item active" style="width: 100%;">
+					<img class="d-block w-100" style="width: 100%;" src="./images/slider-3.png" alt="First slide">
+				</div>
+				<div class="carousel-item item">
+					<img class="d-block w-100" src="./images/slider-6.png" alt="First slide">
+				</div>
+				<div class="carousel-item item">
+					<img class="d-block w-100" src="./images/slider-4.png" alt="First slide">
+				</div>
+			</div>
 		</div>
 
 
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-		</ol>
 
-		<div class="carousel-inner carousel-zoom carousel-fade" style="width: 100%; position: relative;">
-			<div class="carousel-item item active" style="width: 100%;">
-				<img class="d-block w-100" style="width: 100%;" src="./images/slider-3.png" alt="First slide">
-			</div>
-			<div class="carousel-item item">
-				<img class="d-block w-100" src="./images/slider-2.png" alt="First slide">
-			</div>
-			<div class="carousel-item item">
-				<img class="d-block w-100" src="./images/slider-1.png" alt="First slide">
-			</div>
-		</div>
-	</div>
-
-
-
-	<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb mt-5" id="about-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 py-5 pl-md-5">
-					<div class="row justify-content-center mb-4 pt-md-4 text-center">
-						<div class="col-md-12 heading-section ftco-animate">
-							<h2 class="mb-4">Road Development Authority</h2>
-							<p>
-								The RDA is the premier highway authority in the country and is responsible for
-								the maintenance and development of the National Highway Network, comprising the
-								Trunk (A Class) roads, Main (B Class) roads and Expressways and the planning,
-								design and construction of new highways, bridges and expressways to augment the
-								existing road network
-							</p>
-							<div class="arrow bounce pb-5">
-								<a class="fa fa-arrow-down fa-2x " href="#"></a>
+		<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb mt-5" id="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 py-5 pl-md-5">
+						<div class="row justify-content-center mb-4 pt-md-4 text-center">
+							<div class="col-md-12 heading-section ftco-animate">
+								<h2 class="mb-4">Road Development Authority</h2>
+								<p>
+									The RDA is the premier highway authority in the country and is responsible for
+									the maintenance and development of the National Highway Network, comprising the
+									Trunk (A Class) roads, Main (B Class) roads and Expressways and the planning,
+									design and construction of new highways, bridges and expressways to augment the
+									existing road network
+								</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<!-- <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');"
-		data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
-				data-scrollax-parent="true">
-				<div class="col-lg-9 ftco-animate text-center">
-					<div class="mt-5">
-						<h1 class="mb-4">Lease The Right Equipment For Your Job</h1>
-						<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and
-							Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-						<p><a href="#" class="btn btn-primary">Contact us</a> <a href="#" class="btn btn-white">Request
-								A Quote</a></p>
+		<section class="ftco-section ftco-no-pt  ftco-no-pb ftco-services-2 bg-primary mt-5">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 py-5 ">
+						<!-- <div class="py-lg-5">
+							<div class="row justify-content-center pb-5">
+								<div class="col-md-12 heading-section ftco-animate">
+									<h2 class="mb-3">Why Choose To Rent In Equipo</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+									<div class="media block-6 services d-flex">
+										<div class="icon justify-content-center align-items-center d-flex"><span
+												class="flaticon-customer-service"></span></div>
+										<div class="media-body pl-4">
+											<h3 class="heading mb-3">24/7 Customer Service</h3>
+											<p>A small river named Duden flows by their place and supplies it with the
+												necessary regelialia.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+									<div class="media block-6 services d-flex">
+										<div class="icon justify-content-center align-items-center d-flex"><span
+												class="flaticon-road-roller"></span></div>
+										<div class="media-body pl-4">
+											<h3 class="heading mb-3">Prompt Delivery</h3>
+											<p>A small river named Duden flows by their place and supplies it with the
+												necessary regelialia.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+									<div class="media block-6 services d-flex">
+										<div class="icon justify-content-center align-items-center d-flex"><span
+												class="flaticon-road-roller"></span></div>
+										<div class="media-body pl-4">
+											<h3 class="heading mb-3">Reliable Equipment</h3>
+											<p>A small river named Duden flows by their place and supplies it with the
+												necessary regelialia.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+									<div class="media block-6 services d-flex">
+										<div class="icon justify-content-center align-items-center d-flex"><span
+												class="flaticon-road-roller"></span></div>
+										<div class="media-body pl-4">
+											<h3 class="heading mb-3">New Heavy Equipment</h3>
+											<p>A small river named Duden flows by their place and supplies it with the
+												necessary regelialia.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+				
+						<div class="appointment-form ftco-animate mt-lg-4">
+							<h3 class="text-02">News And Posts</h3>
+						<div class="glide">
+							<div class="glide__track" data-glide-el="track">
+								<ul class="glide__slides">
+									<li class="glide__slide">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
+												View More</a>
+										</div>
+									</li>
+									<li class="glide__slide">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
+												View More</a>
+										</div>
+									</li>
+									<li class="glide__slide">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-info" data-target="#model-2" data-toggle="modal">
+												View More</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="glide__arrows" data-glide-el="controls">
+								<button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+									<i class="fa fa-arrow-left" aria-hidden="true"></i>
+								</button>
+								<button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+									<i class="fa fa-arrow-right" aria-hidden="true"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+		
+					
+
+
+						<!-- <div id="carouselExampleControls" class="carousel slide ftco-animate" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="card" style="width: 100%;">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-primary" data-target="#model-0" data-toggle="modal">
+												View More</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card" style="width: 100%;">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-primary" data-target="#model-2" data-toggle="modal">
+												View More</a>
+										</div>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<div class="card" style="width: 100%;">
+										<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
+										<div class="card-body text-center">
+											<a href="#" class="btn btn-primary" data-target="#model-3" data-toggle="modal">
+												View More</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div> -->
+
+					</div>
+
+
+					<!-- Models -->
+					<div class="modal fade bd-example-modal-lg" id="model-0" tabindex="-1" role="dialog"
+						aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-center">
+									<img src="./images/post-1-model.PNG" class="img-fluid" alt="" srcset="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="modal fade bd-example-modal-lg" id="model-2" tabindex="-1" role="dialog"
+						aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-center">
+									<img src="./images/post-02-model.PNG" class="img-fluid" alt="" srcset="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="modal fade bd-example-modal-lg" id="model-3" tabindex="-1" role="dialog"
+						aria-labelledby="myLargeModalLabel" aria-hidden="true">
+						<div class="modal-dialog modal-lg">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body text-center">
+									<img src="./images/post-03-model.PNG" class="img-fluid" alt="" srcset="">
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+					<div class="col-md-5 d-flex">
+						<div class="appointment-wrap p-1 p-lg-5 ">
+							<div class="appointment-form ftco-animate mt-lg-5">
+								<h3>Related Web Sites</h3>
+								<div class="scrollbar" id="style-4">
+									<div class="force-overflow">
+										<div>
+											<div class="row no-gutters p-2 m-0" style="color: #ffffff;">
+												<div class="col-sm-3 p-0 m-0">
+													<img src="./images/related-web-2.png" class="img-fluid" alt=""
+														srcset="">
+												</div>
+												<div class="col-sm p-0 m-0">
+													Expressway Operation Maintenance and Management Division
+												</div>
+											</div>
+											<div class="text-center mt-2 p-2">
+												<small>
+													The Ministry of Roads & Highways is the apex organization in Sri Lanka
+													for
+													the Highways & Road Development sector. It is responsible for the
+													formulation of policies,
+													programmes and projects in regard to the subjects of Highways and all
+													subjects ..
+												</small>
+												<p class="mt-1">
+													<small>
+														<a href="#">VIEW SITE</a>
+													</small>
+												</p>
+											</div>
+										</div>
+
+										<div>
+											<div class="row no-gutters p-2 m-0" style="color: #ffffff;">
+												<div class="col-sm-3 pl-2 m-0">
+													<img src="./images/related-web-1.png" class="img-fluid" alt=""
+														srcset="">
+												</div>
+												<div class="col-sm p-0 m-0 mt-lg-3">
+													Ministry of Roads & Highways
+												</div>
+											</div>
+											<div class="text-center mt-2 p-2">
+												<small>
+													The Ministry of Highways & Road Development is
+													the apex organization in Sri Lanka for the Highways &
+													Road Development sector...
+												</small>
+												<p class="mt-1">
+													<small>
+														<a href="#">VIEW SITE</a>
+													</small>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section> -->
+		</section>
 
-	<section class="ftco-section ftco-no-pt  ftco-no-pb ftco-services-2 bg-primary">
-		<div class="container">
-			<div class="row d-flex">
-				<div class="col-md-7 py-5 ">
-					<!-- <div class="py-lg-5">
-						<div class="row justify-content-center pb-5">
+		<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 d-flex align-items-stretch">
+						<div class="about-wrap img w-100" style="background-image: url(./images/home-page-img-3.jpg);">
+						</div>
+					</div>
+					<div class="col-md-6 py-5 pl-md-5">
+						<div class="row justify-content-center mb-4 pt-md-4">
 							<div class="col-md-12 heading-section ftco-animate">
-								<h2 class="mb-3">Why Choose To Rent In Equipo</h2>
+								<span class="subheading">Welcome to RDA</span>
+								<h2 class="mb-4">Sustainably developed Sri Lanka</h2>
+								<p>The RDA is a major Civil Engineering Organization with
+									specialized skills in Highway and Bridge Planning, Design,
+									Construction, Maintenance and Highway Safety. The organizational
+									structure is designed to
+									carry out the functions assigned to the RDA and to achieve its goals and objectives.</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span
-											class="flaticon-customer-service"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">24/7 Customer Service</h3>
-										<p>A small river named Duden flows by their place and supplies it with the
-											necessary regelialia.</p>
+							<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+								<div class="block-18">
+									<div class="text">
+										<strong class="number" data-number="50">0</strong>
+										<span>Years of Experienced</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span
-											class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Prompt Delivery</h3>
-										<p>A small river named Duden flows by their place and supplies it with the
-											necessary regelialia.</p>
+							<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+								<div class="block-18">
+									<div class="text">
+										<strong class="number" data-number="4500">0</strong>
+										<span>Number of Projects</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span
-											class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Reliable Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the
-											necessary regelialia.</p>
+							<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+								<div class="block-18">
+									<div class="text">
+										<strong class="number" data-number="20">0</strong>
+										<span>Number of Staffs</span>
 									</div>
 								</div>
 							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span
-											class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">New Heavy Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the
-											necessary regelialia.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-					<div id="carouselExampleControls" class="carousel slide ftco-animate" data-ride="carousel">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<div class="card" style="width: 100%;">
-									<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-									<div class="card-body text-center">
-										<a href="#" class="btn btn-primary" data-target="#model-0" data-toggle="modal">
-											View More</a>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class="card" style="width: 100%;">
-									<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-									<div class="card-body text-center">
-										<a href="#" class="btn btn-primary" data-target="#model-2" data-toggle="modal">
-											View More</a>
-									</div>
-								</div>
-							</div>
-							<div class="carousel-item">
-								<div class="card" style="width: 100%;">
-									<img class="card-img-top" src="./images/post-1.png" alt="Card image cap">
-									<div class="card-body text-center">
-										<a href="#" class="btn btn-primary" data-target="#model-3" data-toggle="modal">
-											View More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<a class="carousel-control-prev" href="#carouselExampleControls" role="button"
-							data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleControls" role="button"
-							data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-
-				</div>
-
-
-				<!-- Models -->
-				<div class="modal fade bd-example-modal-lg" id="model-0" tabindex="-1" role="dialog"
-					aria-labelledby="myLargeModalLabel" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body text-center">
-								<img src="./images/post-1-model.PNG" class="img-fluid" alt="" srcset="">
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="modal fade bd-example-modal-lg" id="model-2" tabindex="-1" role="dialog"
-					aria-labelledby="myLargeModalLabel" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body text-center">
-								<img src="./images/post-02-model.PNG" class="img-fluid" alt="" srcset="">
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<div class="modal fade bd-example-modal-lg" id="model-3" tabindex="-1" role="dialog"
-					aria-labelledby="myLargeModalLabel" aria-hidden="true">
-					<div class="modal-dialog modal-lg">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body text-center">
-								<img src="./images/post-03-model.PNG" class="img-fluid" alt="" srcset="">
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-
-
-
-				<div class="col-md-5 d-flex">
-					<div class="appointment-wrap p-1 p-lg-5 ">
-						<div class="appointment-form ftco-animate mt-lg-5">
-							<h3>Related Web Sites</h3>
-							<div class="scrollbar" id="style-4">
-								<div class="force-overflow">
-									<div>
-										<div class="row no-gutters p-2 m-0" style="color: #ffffff;">
-											<div class="col-sm-3 p-0 m-0">
-												<img src="./images/related-web-2.png" class="img-fluid" alt=""
-													srcset="">
-											</div>
-											<div class="col-sm p-0 m-0">
-												Expressway Operation Maintenance and Management Division
-											</div>
-										</div>
-										<div class="text-center mt-2 p-2">
-											<small>
-												The Ministry of Roads & Highways is the apex organization in Sri Lanka
-												for
-												the Highways & Road Development sector. It is responsible for the
-												formulation of policies,
-												programmes and projects in regard to the subjects of Highways and all
-												subjects ..
-											</small>
-											<p class="mt-1">
-												<small>
-													<a href="#">VIEW SITE</a>
-												</small>
-											</p>
-										</div>
-									</div>
-
-									<div>
-										<div class="row no-gutters p-2 m-0" style="color: #ffffff;">
-											<div class="col-sm-3 pl-2 m-0">
-												<img src="./images/related-web-1.png" class="img-fluid" alt=""
-													srcset="">
-											</div>
-											<div class="col-sm p-0 m-0 mt-lg-3">
-												Ministry of Roads & Highways
-											</div>
-										</div>
-										<div class="text-center mt-2 p-2">
-											<small>
-												The Ministry of Highways & Road Development is
-												the apex organization in Sri Lanka for the Highways &
-												Road Development sector...
-											</small>
-											<p class="mt-1">
-												<small>
-													<a href="#">VIEW SITE</a>
-												</small>
-											</p>
-										</div>
+							<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+								<div class="block-18">
+									<div class="text">
+										<strong class="number" data-number="300">0</strong>
+										<span>Number of Bids</span>
 									</div>
 								</div>
 							</div>
@@ -406,141 +489,83 @@
 					</div>
 				</div>
 			</div>
-	</section>
+		</section>
 
-	<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 d-flex align-items-stretch">
-					<div class="about-wrap img w-100" style="background-image: url(./images/home-page-img-3.jpg);">
+		<section class="ftco-section testimony-section img" style="background-image: url(images/bg_1.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center mb-5 pb-3">
+					<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+						<h2 class="mb-4">Roles & Responsibilities</h2>
 					</div>
 				</div>
-				<div class="col-md-6 py-5 pl-md-5">
-					<div class="row justify-content-center mb-4 pt-md-4">
-						<div class="col-md-12 heading-section ftco-animate">
-							<span class="subheading">Welcome to RDA</span>
-							<h2 class="mb-4">Sustainably developed Sri Lanka</h2>
-							<p>The RDA is a major Civil Engineering Organization with
-								specialized skills in Highway and Bridge Planning, Design,
-								Construction, Maintenance and Highway Safety. The organizational
-								structure is designed to
-								carry out the functions assigned to the RDA and to achieve its goals and objectives.</p>
-						</div>
+				<div class="row ftco-animate justify-content-center">
+					<div class="text-center">
+						The functions performed by the RDA consist mainly of
+						the maintenance and development of the roads and bridges in
+						the National Highway Network and the planning, design and construction
+						of new highways, bridges and expressways to augment the existing network.
+						The RDA has a responsibility for the development of the road network to cater for
+						the on-going overall development programme of the country. Since, Road
+						Transport is the primary mode of transport in the country, it is very vital
+						that road network is adequate to developed to promote efficient transport of
+						people and goods. The RDA has a responsibility to plan the future road network
+						taking into consideration
+						the future travel demand and formulating project proposals to meet this demand.
 					</div>
-					<div class="row">
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="50">0</strong>
-									<span>Years of Experienced</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="4500">0</strong>
-									<span>Number of Projects</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="20">0</strong>
-									<span>Number of Staffs</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
-							<div class="block-18">
-								<div class="text">
-									<strong class="number" data-number="300">0</strong>
-									<span>Number of Bids</span>
-								</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="mt-5">
+			<div class="container-fluid px-md-4">
+				<div class="row justify-content-center mb-5 pb-2">
+					<div class="col-md-8 text-center heading-section ftco-animate">
+						<!-- <span class="subheading">Services</span> -->
+						<h2 class="mb-4">Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 card-1">
+						<div class="services-wrap">
+							<div class="text">
+								<h2>ETC - Colombo-Katunayake Expressway</h2>
+								<p>Electronic toll collection (ETC)
+									aims to eliminate the delay on expressway
+									by collecting user fee electronically.
+
+								</p>
+
+								<p class="text-center"><a href="#" class="btn-sm btn-warning"></span>Apply Now</a> </p>
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+					<div class="col-md-6  card-1">
+						<div class="services-wrap">
+							<div class="text">
+								<h2>Bids and Ads</h2>
+								<p>Far far away, behind the word mountains, far from the countries Vokalia and
+									Consonantia</p>
+								<p class="text-center"><a href="#" class="btn-sm btn-warning"></span>Apply Now</a> </p>
+							</div>
 
-	<section class="ftco-section testimony-section img" style="background-image: url(images/bg_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-					<h2 class="mb-4">Roles & Responsibilities</h2>
-				</div>
-			</div>
-			<div class="row ftco-animate justify-content-center">
-				<div class="text-center">
-					The functions performed by the RDA consist mainly of
-					the maintenance and development of the roads and bridges in
-					the National Highway Network and the planning, design and construction
-					of new highways, bridges and expressways to augment the existing network.
-					The RDA has a responsibility for the development of the road network to cater for
-					the on-going overall development programme of the country. Since, Road
-					Transport is the primary mode of transport in the country, it is very vital
-					that road network is adequate to developed to promote efficient transport of
-					people and goods. The RDA has a responsibility to plan the future road network
-					taking into consideration
-					the future travel demand and formulating project proposals to meet this demand.
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<section class="mt-5">
-		<div class="container-fluid px-md-4">
-			<div class="row justify-content-center mb-5 pb-2">
-				<div class="col-md-8 text-center heading-section ftco-animate">
-					<!-- <span class="subheading">Services</span> -->
-					<h2 class="mb-4">Services</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="services-wrap">
-						<div class="text">
-							<h2>ETC - Colombo-Katunayake Expressway</h2>
-							<p>Electronic toll collection (ETC)
-								aims to eliminate the delay on expressway
-								by collecting user fee electronically.
-
-							</p>
-
-							<p class="text-center"><a href="#" class="btn-sm btn-warning"></span>Apply Now</a> </p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="services-wrap">
-						<div class="text">
-							<h2>Bids and Ads</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and
-								Consonantia</p>
-							<p class="text-center"><a href="#" class="btn-sm btn-warning"></span>Apply Now</a> </p>
-						</div>
-
-
-					</div>
-				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+		<section>
+			<div class="container-fluid p-0">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253499.19491748334!2d79.78601911640625!3d6.8995828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2575567c03baf%3A0xc06378496d884eac!2sRoad%20Development%20Authority%20Head%20Office!5e0!3m2!1sen!2slk!4v1602362113618!5m2!1sen!2slk"
+					width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+					tabindex="0"></iframe>
+			</div>
+		</section>
+    </div>
 
 
-	<section>
-		<div class="container-fluid p-0">
-			<iframe
-				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253499.19491748334!2d79.78601911640625!3d6.8995828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2575567c03baf%3A0xc06378496d884eac!2sRoad%20Development%20Authority%20Head%20Office!5e0!3m2!1sen!2slk!4v1602362113618!5m2!1sen!2slk"
-				width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-				tabindex="0"></iframe>
-		</div>
-
-	</section>
 
 
 	<footer class="ftco-footer">
@@ -662,6 +687,9 @@
 	<script src="js/google-map.js"></script>
 
 	<script src="js/main.js"></script>
+	<script src="./node_modules/@glidejs/glide/dist/glide.min.js"></script>
+	<script src="js/index.js"></script>
+
 	<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
 
 </body>
