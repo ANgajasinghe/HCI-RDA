@@ -25,11 +25,11 @@
     <li>Contact Us - Project Management (landslide.html)</li>
 </ol><br>
 
-## Abeygunawardane Y.T - ITxxxxxxxx
+## Abeygunawardane Y.T - IT18120608
 <ol>
     <li>Sub navigation - Provincial Offices</li>
     <li>Notices - Hoardings</li>
-    <li>Projects - Highway Decelopment Plan</li>
+    <li>Projects - Highway Development Plan</li>
 </ol><br>
 
 ## U.L.V.R. Perera - IT18133264
